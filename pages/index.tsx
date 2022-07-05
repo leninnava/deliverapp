@@ -14,7 +14,6 @@ const Home: NextPage = () => {
         <h1 className='text-7xl text-slate-800 hover:text-slate-600 transition-colors'>
           Welcome to DeliverApp!
         </h1>
-
       </main>
     </div>
   )
