@@ -1,7 +1,9 @@
 module.exports = {
   "stories": [
-    "../stories/**/*.stories.mdx",
-    "../stories/**/*.stories.@(js|jsx|ts|tsx)"
+    "../stories/**/*.stories.mdx", /// To remove
+    "../stories/**/*.stories.@(js|jsx|ts|tsx)", /// To remove
+    "../components/**/*.stories.mdx",
+    "../components/**/*.stories.@(js|jsx|ts|tsx)"
   ],
   "addons": [
     'storybook-addon-next',
